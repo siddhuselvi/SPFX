@@ -1,0 +1,260 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.dashboard {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+.teams {
+  font-family: $ms-font-family-fallbacks;
+  border: 1px solid #928b8b;
+  padding: 10px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+.table1
+{
+  width: 40%;
+  border-collapse: collapse;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table2
+{
+   width: 90%;
+    border-Collapse: collapse;
+    border: 1px solid #9f9c9c;
+   
+}
+.td
+{
+  background-color:rgba(228, 127, 25, 0.64);
+  border: none;
+  padding: 3px;
+  width: 30px;
+ text-align: left; 
+}
+.td1
+{
+  background-color:#F9D2BD;
+  border: none;
+  padding: 3px;
+  width: 30px;
+  
+}
+.td2
+{
+  background-color:rgb(177, 223, 246);
+  border: none;
+  padding: 5px;
+  width: 30px;
+}
+.td3
+{
+  background-color:#F9D2BD;
+  border: none;
+  padding:3 px;
+  width: 30px;
+
+  
+}
+.td4
+{
+  background-color:#FAE4B2 ;
+  border: none;
+  padding: 3px;
+  width: 30px;
+}
+.tr1
+{
+  background-color:#fff ;
+  border: 1px solid #928b8b;
+  padding: 25px;
+  width: 90%;
+ height: 50px;
+}
+.tr2
+{
+  background-color:#94c4f9 ;
+border: none;
+  padding: 3px;
+  width: 90%;
+  height: 30px;
+}
+.KG{
+  background-color: #94cef9;
+  text-align: center;
+  font-style: italic;
+}
+.KG1{
+  background-color: #94cef9;
+  text-align: left;
+}
+.green{
+  background-color: #c9f9d6;
+}
+.tr8
+{
+  background-color:#f9ba96 ;
+border: none;
+  padding: 3px;
+  width: 90%;
+  height: 30px;
+}
+.deepa{
+  background-color:#f9ba96 ;
+  text-align: center;
+  font-style: italic;
+}
+.deepa1{
+  background-color:#f9ba96 ;
+  text-align: left;
+  font-style: italic;
+}
+.tr9
+{
+  background-color:#fddc71 ;
+border: none;
+  padding: 3px;
+  width: 90%;
+  height: 30px;
+}
+.uma{
+  text-align: center;
+  background-color:#fddc71 ;
+  font-style: italic;
+}
+.uma1{
+  text-align: left;
+  background-color:#fddc71 ;
+  font-style: italic;
+}
+.tr3{
+  background-color: #c0dbf8; 
+ 
+  border: none;
+    padding: 3px;
+    width: 90%;
+    height: 30px;
+}
+.tr6{
+  background-color: #f0d6ca; 
+ 
+  border: none;
+    padding: 3px;
+    width: 90%;
+    height: 30px;
+}
+.tr7{
+  background-color: #f1e9ba; 
+ 
+  border: none;
+    padding: 3px;
+    width: 90%;
+    height: 30px;
+}
+.t1{
+  background-color: #4da8dc;
+}
+.t2{
+  background-color: #eb8d3b;
+}
+.t3{
+  background-color: #eccb12;
+}
+.t4{
+  background-color: #3572be;
+}
+.tr5{
+  background-color:#3572be;
+ 
+  border: none;
+    padding: 3px;
+    width: 90%;
+    height: 30px;
+}
+
+//to hide site header and left navigation on modern page
+div[data-automationid='SiteHeader']{  
+  display:none !important;  
+} 
+div[data-automationid='ShyHeader']{  
+  display:none !important;  
+} 
+div[id='spLeftNav']{  
+  display:none !important;  
+}
+//to hide site header and left navigation on classic webpart page
+div[id='s4-titlerow']{  
+  display:none !important;  
+} 
+div[id='sideNavBox']{  
+  display:none !important;  
+} 
+
+//to hide edit page banner
+div[data-automation-id='visibleContent']{  
+  display:none !important;  
+}
+
+//to hide page banner
+div[data-automation-id='pageHeader']{  
+  display:none !important;  
+}  
+
+//to hide top defult sharepoint blue banner
+div[id='SuiteNavWrapper']{  
+  display:none !important;  
+} 
+
+//to hide top defult sharepoint left bar
+div[id='sp-appBar']{  
+  display:none !important;  
+} 
+div[id='workbenchPageContent']{  
+ // display:none !important;  
+ max-width: none;
+ margin-left: -60px;
+}
+
+div[data-automation-id='CanvasZone'] >div{  
+//  width: 100% !important;
+  max-width: 100% !important;
+} 
+
+.h4{
+  text-align: center;
+  background-color:#3572be;
+  box-sizing: border-box;
+  width: 90%;
+  color: #f2f2f2;
+  padding:2px;
+}
